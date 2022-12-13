@@ -1,91 +1,111 @@
-/* /* body {
-    background-color: #ebebeb;
-}
 
-.heading {
-    background-color: #333333;
-    margin-bottom: 20px;
-    padding: 5px 0px 5px 15px;
-}
-
-.title {
-    background-color: #333333;
-    padding: 5px;
-    color: white;
-}
-
-#runtime {
-    background-color: #333333;
-    color: #3e8fde;
-    padding: 0px 0px 5px 5px;
-}
-
-.content {
-    color: #3e8fde;
-}
-
-#subtitle {
-    color: white;
-    margin-left: 55px;
-}
-
-#showing {
-    margin-left: 20px;
-}
-
-#films li::before {
-    content: "";
-}
-
-.film {
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.sold-out {
-    color: lightgray;
-}
-
-img {
-    max-width: 25vw;
-}
-
-#film-info {
-    padding-bottom: 15px;
-}
-
-#lil {
-    text-align: center;
-    background-color: black;
-    
-} */
-  .card {
-   background-color:darkgray;
-     padding: 5px;
-     margin-bottom: 100px;
-     color: black;
-     
- }
-
- #subtitle {
-    text-align: center;
-
- }
-
- .content {
-    text-align: center;
-    color:coral
-
- }
-
- html {
-    background-color:cornflowerblue
- }
- 
  body {
-    margin: 0;
+     background-image: url("movie2background.jpg");
  }
 
+ h1 {
+    text-align: center;
+    color: #8B4000;
+ }
+
+ div {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ ul {
+     list-style: none;
+     margin: 0;
+     padding: 5px;
+     float: left;
+     width: 30%;
+     margin-right: 10%;
+ }
+
+ li {
+     cursor: pointer;
+     background-color:#8B4000; 
+     color: #fff;
+     padding: 5px;
+     margin: 10px 0;
+     border-radius: 5px;
+ }
+
+ li:hover {
+     background-color: #5f7499;
+ }
+
+ .film-card {
+     display: none;
+     background-color: #8B4000;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px #7D2E68;
+     margin: 10px;
+     float: right;
+     width: 700px;
+     height: 555px;
+     position: relative;
+ }
+
+ .active {
+     display: block;
+ }
+
+ img {
+     float: left;
+     margin: 10px;
+     border-radius: 10px;
+     height: 540px;
+     width: 450px;
+ }
+
+ h2 {
+     margin: 0;
+     padding: 0;
+ }
+
+ p {
+     margin: 0;
+     padding: 0;
+ }
+
+ button {
+     background-color: #011638;
+     color: #fff;
+     border: none;
+     padding: 5px 10px;
+     border-radius: 5px;
+     cursor: pointer;
+     float: right-bottom;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     margin: 5px;
+ }
+
+ button:hover {
+     background-color: #008b8b;
+ }
+
+
+
+ .highlight {
+     background-color: #011638;
+     color: #DFF8EB;
+ }
+
+ .bold-text {
+     font-weight: bold;
+ }
+
+ .bold-italic-text {
+     font-weight: bold;
+     font-style: italic;
+ }
 
  
 
