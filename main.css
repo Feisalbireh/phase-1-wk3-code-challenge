@@ -28,6 +28,7 @@
  li {
      cursor: pointer;
      background-color:#8B4000; 
+     font-family: serif;
      color: #fff;
      padding: 5px;
      margin: 10px 0;
