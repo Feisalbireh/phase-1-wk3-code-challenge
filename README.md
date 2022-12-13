@@ -29,6 +29,7 @@ When you press the link the application and features should show:
 - The Titles of all the movies listed
 - Press one movie and details should show the description, showtime, runtime and available tickets.
 - To book the movie you like simply press `buy ticket` on the bottom right of the card. Then you will see the number of available tickets descreasing.
+- When the available ticket number becomes 0, it will show you an Alert that says `Tickets Sold Out`
 
 # Installation
 
